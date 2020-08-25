@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    padding: 0;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.menu > li{
+    padding: 10px;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+.aside,.aside2{
+    width: 200px;
+    text-align: center;
+}
+#text > p{
+    text-align: center;
+}
+#text > h1{
+    text-align: center;
+}
+img{
+    display: flex;
+}
+#block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aside{
+    background: pink;
+}
+.aside2{
+    background: skyblue;
+}
+#block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    bottom: 10px;
+    align-items: center;
+}
+.box1 > img,.box2 > img,.box3 > img,.box4 > img,.box5 > img,.box6 > img{
+    border-radius: 300px;
+    width: 90px;
+    height: 90px;
+    border: 10px solid mediumpurple; 
+    display: flex;
+    margin: 30px;
+}
+.box1 > strong,.box2 > strong,.box3 > strong,.box4 > strong,.box5 > strong,.box6 > strong{
+    text-align: center;
+}
+p{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+input{
+    color: white;
+    background: purple;
+    display: flex;
+    align-content: center;
+    border-radius: 40px;
+   align-items: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background: lawngreen;
+}
+.holder{
+    width: 302px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(3),
+.item:nth-child(4),
+.item:nth-child(5){
+ text-align: center; 
+ height: 100px;
+}
+.item:nth-child(1){
+    background: red;
+    width: 150px;
+    order: 1;
+}
+.item:nth-child(2){
+    background: blue;
+    width: 100px;
+    order: 4;
+}
+.item:nth-child(3){
+    background: purple;
+    text-align: center;
+    width: 100px;
+    order: 3;
+}
+.item:nth-child(4){
+    background: green;
+    width: 100px;
+    order: 5;
+}
+.item:nth-child(5){
+    background: yellow;
+    width: 150px;
+    order: 2;
+}
